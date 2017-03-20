@@ -22,7 +22,7 @@ public class Main {
             Double.parseDouble(userInput);
             if (validator.validateAge(userInput)) {
 
-                    System.out.println("You can now enjoy our wide variety of content. Enjoy!");
+                    System.out.println("You can now enjoy our wide variety of content.");
                 }
             }
 
