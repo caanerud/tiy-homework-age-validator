@@ -37,6 +37,12 @@ public class Validator {
 
         age = Integer.parseInt(input);
 
+        if (input.contains("-")) {
+
+            throw new Exception("Age cannot be a negative number.");
+
+        }
+
         if (age < 18) {
 
             throw new Exception("You are too young to access this website.");
