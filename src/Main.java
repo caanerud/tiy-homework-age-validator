@@ -27,7 +27,7 @@ public class Main {
             }
 
         catch(NumberFormatException e){
-                System.out.println("You need to enter age as a whole number.");
+                System.out.println("You need to enter age as a whole number with no punctuation.");
 
             }
 catch(Exception f) {
